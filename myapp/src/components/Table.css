@@ -1,0 +1,50 @@
+.container {
+  margin-top: 50px;
+  /* width: 700px; */
+}
+.container thead tr th {
+  border-radius: 5px;
+  color: #b4fad1;
+  width: 100%;
+  border: 2px solid white;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container tbody tr td {
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 0;
+  height: 28px;
+}
+
+.container tbody tr td input {
+  height: 100%;
+  color: black;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.container tbody tr td input:hover {
+  color: white;
+}
+
+.container tbody tr td:hover {
+  background-color: #4CA1AF;
+  color: white;
+  outline: none;
+}
+
+.container thead tr th:hover {
+  color: white;
+  background-color: #4CA1AF;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}

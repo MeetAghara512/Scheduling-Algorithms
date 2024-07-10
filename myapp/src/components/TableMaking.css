@@ -1,0 +1,36 @@
+.container_{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto ;
+}
+.SubHeading{
+  position: absolute;
+  font-size: 30px;
+  margin-left: 50px;
+  top: 120px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+thead th, tbody td {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+thead th {
+  animation-delay: calc(var(--col-index) * 0.5s);
+}
+
+tbody td {
+  animation-delay: calc(var(--col-index) * 0.5s);
+}

@@ -1,0 +1,200 @@
+.App,
+.SJF,
+.FCFS,
+.SRTF,
+.RR,
+.NPPS,
+.PPS{
+      min-height: 100vh;
+      max-height: 100%;
+      background: #2C3E50;
+      background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+      background: linear-gradient(to right, #4CA1AF, #2C3E50);
+}
+
+.Task {
+      font-size: 70px;
+      color: white;
+}
+
+.Algo {
+      color: #b4fad1;
+      font-size: 60px;
+}
+
+.OuterBox {
+      display: flex;
+      flex-direction: column;
+      padding-top: 50px;
+      align-items: center;
+}
+
+.OneBox {
+      justify-content: center;
+      margin-top: 50px;
+}
+
+.multipleSelect {
+      background-color: white;
+      width: 450px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 50px;
+}
+
+.InMultipleSelect {
+      margin-left: 25px;
+      width: 89%;
+}
+
+.multipleSelect:hover {
+      outline: 2px solid rgb(235, 249, 176);
+}
+
+
+.submitButton {
+      margin-top: 50px;
+      width: 120px;
+      font-size: 25px;
+      border-radius: 50px;
+      height: 50px;
+      margin-bottom: 100px;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.submitButton:hover {
+      transform: scale(1.1);
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+      outline: 2px solid white;
+}
+
+.StartButton {
+      margin-top: 50px;
+      width: 190px;
+      font-size: 25px;
+      border-radius: 50px;
+      height: 65px;
+      margin-bottom: 100px;
+      border: 2px solid white;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.StartButton:hover {
+      transform: scale(1.1);
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+      outline: 2px solid white;
+}
+
+
+.numberOfProcess {
+      height: 26px;
+      font-size: 21px;
+      padding: 0;
+}
+
+.generateTable {
+      height: 50px;
+}
+
+
+button {
+      border: none;
+      cursor: pointer;
+}
+
+button:hover {
+      opacity: 0.8;
+}
+
+input {
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 500;
+}
+
+input:focus {
+      outline: 2px solid white;
+}
+
+input::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+}
+
+.wrapper {
+      width: 400px;
+      max-width: 100%;
+      position: relative;
+}
+
+.wrapper input {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid white;
+      border-radius: 50px;
+      padding: 1rem 2rem;
+      width: 54%;
+}
+
+.wrapper button {
+      background: white;
+      border-radius: 50px;
+      aspect-ratio: 1;
+      height: 80%;
+
+      position: absolute;
+      top: 6%;
+      right: 2px;
+}
+
+.quantumTime {
+      margin-left: 50px;
+}
+
+
+/* header */
+
+.HeaderOuter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      position: relative;
+      background-color:rgba(255, 255, 255, 0.1) ;
+}
+
+.BackButton {
+      position: absolute;
+      left: 0;
+      display: flex;
+      align-items: center;
+      
+}
+
+.Header {
+      font-size: 50px;
+      flex-grow: 1;
+      text-align: center;
+      color: #b0b0b0;
+}
+.BackLogo {
+      background-color: black;
+      width: 51px;
+      height: 51px;
+      border-radius: 50px;
+}
+
+.BackButtonArrow {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      background-color: rgba(255, 255, 255, 0.1);
+      margin-left: -6px;
+      margin-bottom: -5px;
+      color: #b4fad1;
+}
