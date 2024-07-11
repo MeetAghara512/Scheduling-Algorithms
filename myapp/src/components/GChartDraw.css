@@ -1,52 +1,53 @@
 .gantt-chart {
-  display: flex;
-  flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .gantt-item-container {
-  position: relative;
-  margin: 5px; 
+    position: relative;
+    margin: 5px;
 }
 
 .gantt-item {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  opacity: 0;
-  transform: translateY(20px);
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .gantt-item.show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .timer-value {
-  margin-top: -10px;
-  margin-left : 90px;
-  position: relative; 
-  font-size: 14px;
-  color: #000;
-  right: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+    margin-top: -10px;
+    margin-left: 90px;
+    position: relative;
+    font-size: 14px;
+    color: #000;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
+
 .timer-value.show {
-  opacity: 1;
+    opacity: 1;
 }
 
 .Border {
-  border: 2px solid black;
+    border: 2px solid black;
 }
 
 .BoxBorder {
-  border: 2px solid white;
+    border: 2px solid white;
 }
 
 .HeaderBorder {
-  text-align: center;
-  color: #b0b0b0;
-  height: 40px;
-  border-bottom: 2px solid white;
+    text-align: center;
+    color: #b0b0b0;
+    height: 40px;
+    border-bottom: 2px solid white;
 }

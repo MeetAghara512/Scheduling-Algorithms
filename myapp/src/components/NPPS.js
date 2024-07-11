@@ -34,7 +34,6 @@ function NPPS() {
             let completed = 0;
 
             while (completed !== n) {
-                  // Find the process with the highest priority (smallest priority value) that has arrived
                   let idx = -1;
                   let highestPriority = Number.MAX_SAFE_INTEGER;
                   for (let i = 0; i < n; i++) {
@@ -56,7 +55,6 @@ function NPPS() {
                         turnaroundTime[idx] = completionTime[idx] - combinedData[idx].AR;
                         completed++;
                   } else {
-                        // If no process is ready, increment the time and mark the Gantt chart with an idle state
                         ganttChart.push(-1);
                         time++;
                         Timer.push(time);

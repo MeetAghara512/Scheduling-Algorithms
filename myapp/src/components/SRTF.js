@@ -40,7 +40,6 @@ function SRTF() {
                   let idx = -1;
                   let minRemainingTime = Infinity;
 
-                  // Find the process with the shortest remaining burst time
                   for (let i = 0; i < n; i++) {
                         if (combinedData[i].AR <= time && remainingTime[i] > 0) {
                               if (remainingTime[i] < minRemainingTime) {
@@ -51,12 +50,10 @@ function SRTF() {
                   }
 
                   if (idx !== -1) {
-                        // Process execution
                         remainingTime[idx] -= 1;
                         ganttChart.push(combinedData[idx].Pid);
                         time++;
                         Timer.push(time);
-                        // If a process finishes
                         if (remainingTime[idx] === 0) {
                               completionTime[idx] = time;
                               waitingTime[idx] = completionTime[idx] - combinedData[idx].AR - combinedData[idx].BR;
@@ -64,7 +61,6 @@ function SRTF() {
                               completed++;
                         }
                   } else {
-                        // Idle time
                         ganttChart.push(-1);
                         time++;
                         Timer.push(time);

@@ -4,7 +4,7 @@
 .SRTF,
 .RR,
 .NPPS,
-.PPS{
+.PPS {
       min-height: 100vh;
       max-height: 100%;
       background: #2C3E50;
@@ -165,7 +165,7 @@ input::placeholder {
       justify-content: space-between;
       padding: 10px;
       position: relative;
-      background-color:rgba(255, 255, 255, 0.1) ;
+      background-color: rgba(255, 255, 255, 0.1);
 }
 
 .BackButton {
@@ -173,7 +173,7 @@ input::placeholder {
       left: 0;
       display: flex;
       align-items: center;
-      
+
 }
 
 .Header {
@@ -182,6 +182,7 @@ input::placeholder {
       text-align: center;
       color: #b0b0b0;
 }
+
 .BackLogo {
       background-color: black;
       width: 51px;

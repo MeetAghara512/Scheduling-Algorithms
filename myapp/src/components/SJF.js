@@ -55,8 +55,6 @@ function SJF() {
 					t++;
 					Timer.push(t);
 				}
-				// t += combinedData[minIndex].BR;
-				// Timer.push(t);
 				ct[minIndex] = t;
 				wt[minIndex] = ct[minIndex] - combinedData[minIndex].BR - combinedData[minIndex].AR;
 				if (wt[minIndex] < 0) wt[minIndex] = 0;

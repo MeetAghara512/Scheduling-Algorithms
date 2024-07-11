@@ -16,10 +16,6 @@ export default function BasicSelect() {
       const handleChange = (event) => {
             setAlgorithm(event.target.value);
             setType(event.target.value);
-
-            // console.log(event.target.value);
-            // console.log("Selection page");
-            // console.log(event.target.value);
       };
 
       return (
