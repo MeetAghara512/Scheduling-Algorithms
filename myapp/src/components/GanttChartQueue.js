@@ -39,7 +39,7 @@ function GanttChartQueue({ ganttChart, queueHistory, Timers }) {
                     </div>
                 </div>
             </div>
-            {currentQueue && currentQueue.length > 0 && (
+            {currentQueue && currentQueue.length > 0 && currentGantt.length < ganttChart.length && (
                 <div className="BorderNew mt-[50px] ml-[20px] mr-[20px]">
                     <div className="playfair-display-regular text-[30px] BorderOfHeading">Queue Visualization</div>
                     <div className="queue-visualization">
