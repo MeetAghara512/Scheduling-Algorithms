@@ -70,14 +70,14 @@ task-algo/
 
 ![Process Input](https://github.com/MeetAghara512/Scheduling-Algorithms/blob/master/myapp/public/five.png)
 
-📌 **Gantt Chart Visualization(RR) (1. Middle of Execution) (2. End of Execution) **
+📌 **Gantt Chart Visualization(RR) (1. Middle of Execution) (2. End of Execution)**
 
 ![Gantt Chart](https://github.com/MeetAghara512/Scheduling-Algorithms/blob/master/myapp/public/six.png)
 ![Gantt Chart](https://github.com/MeetAghara512/Scheduling-Algorithms/blob/master/myapp/public/seven.png)
 
 
 ## 🎥 Live Visualization
-🔗 **Try Task Algo Online:** [Scheduling Algorithm Visualization](https://scheduling-algo.netlify.app)
+🔗 **Try Task Algo Online:** [Scheduling Algorithm Visualization](https://scheduling-algo.netlify.app) (Use Desktop Mode) 
 
 ## 🚀 Future Enhancements - What's Next?
 📌 **Live Code Execution:** Run scheduling algorithms with real-time CPU execution.
